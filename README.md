@@ -1,8 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://qiita.com/nishina555/items/9ff744a897af8ed1679b
 
-## Available Scripts
-
-In the project directory, you can run:
+を参照、RESETボタンを独自に追加
 
 ### `npm start`
 
