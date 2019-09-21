@@ -7,8 +7,25 @@ export const onNumClick = (number) => ({
 
 export const onPlusClick = () => ({
     type: actionTypes.PLUS,
-  });
+});
+
+export const onMinusClick = () => ({
+    type: actionTypes.MINUS,
+});
+
+
+export const onTimesClick = () => ({
+    type: actionTypes.TIMES,
+});
+
+export const onDevideClick = () => ({
+    type: actionTypes.DEVIDE,
+});
 
 export const onResetClick = () => ({
     type: actionTypes.RESET,
-})  
+});  
+
+export const onEqualClick = () => ({
+    type: actionTypes.EQUAL,
+});  

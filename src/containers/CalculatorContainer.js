@@ -7,6 +7,10 @@ import NumBtn from '../components/NumBtn';
 import PlusBtn from '../components/PlusBtn';
 import Result from '../components/Result';
 import ResetBtn from '../components/ResetBtn';
+import MibnusBtn from '../components/MinusBtn';
+import TimesBtn from '../components/TimesBtn';
+import DevideBtn from '../components/DevideBtn';
+import EqualBtn from '../components/EqualBtn';
 
 class CalculatorContainer extends Component {
     render() {
@@ -30,8 +34,14 @@ class CalculatorContainer extends Component {
                 </div>
                 <div>
                     <NumBtn n={0} onClick={() => actions.onNumClick(0)} />
-                    <PlusBtn onClick={actions.onPlusClick} />
                     <ResetBtn onClick={actions.onResetClick} />
+                    <EqualBtn onClick={actions.onEqualClick} />
+                </div>
+                <div>
+                    <PlusBtn onClick={actions.onPlusClick} />
+                    <MibnusBtn onClick={actions.onMinusClick} />
+                    <TimesBtn onClick={actions.onTimesClick} />
+                    <DevideBtn onClick={actions.onDevideClick} />
                 </div>
                 <Result result={calculator.showingResult ? calculator.resultValue : calculator.inputValue} />
             </div>
